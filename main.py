@@ -3,7 +3,7 @@ import discord
 import asyncio
 from funktionen import error_embed
 
-bot = commands.Bot(command_prefix=">", case_insensitive=True)
+bot = commands.Bot(command_prefix="!", case_insensitive=True)
 bot.remove_command("help")
 
 
@@ -208,4 +208,4 @@ async def ban(ctx, member: discord.Member):
     await bot.say(embed=embed)
 
 
-bot.run("NDg2ODg5MDAyMTQ2ODU2OTgw.DnFqUw.peMROoC4YDJRRj9yNM16Rc-JJr0")
+bot.run("NDg2MTY5NzkyODEwODQ0MTcw.DnXs3Q.FZx25GrWDsW1AAbbsgM9B_O_kZM")
